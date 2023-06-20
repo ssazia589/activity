@@ -1,0 +1,65 @@
+/* common code start */
+:root{
+    --brand-color:#30C39E;
+    --light-color:#FFFFFF;
+    --heading-color:#333333;
+    --text-color:#666666;
+    --bg-color: #0a8d9e;
+    --footer-color:#191919;
+    --transition: 5s.linear;
+}
+a{
+    text-decoration:none;
+}
+body,p,h1,h2,h3,h4,h5{
+    margin:0px;
+}
+text-justify{
+    text-align: justify;
+}
+/* common code end */
+/* header section start */
+header{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../image/banner.jpg) no-repeat center;
+}
+/* header section end */
+/* nav section start */
+.navbar{
+    /* position: relative; */
+    /* z-index: 1; */
+}
+.nav-link{
+
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: var(--brand-color);
+}
+.fa-rebel{
+    color:var(--brand-color);
+    font-size: 32px;
+}
+span{
+    font-size: 32px;
+}
+/* nav section end */
+/* banner section start */
+.banner-section{
+   
+    /* height: 675px; */
+    /* margin-top: -120px; */
+}
+.banner-section h1{
+    color:var(--brand-color);
+}
+.banner-section a{
+    padding:10px 30px;
+    border-radius: 6px;
+    border:1px solid #FFFFFF;
+    color:var(--light-color);
+    
+}
+.banner-section a:hover{
+    background:var(--brand-color);
+}
+/* banner section end */
